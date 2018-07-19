@@ -1,0 +1,61 @@
+html{
+	background-color: #fa923f;
+	padding: 10;
+}
+
+body  {
+	background-color: yellow;
+	padding: 10;
+	margin: 0;
+}
+
+/*flexbox*/
+.parent {
+	background-color: #f073e1;
+	margin: 10;
+	padding: 30px;
+	display: flex;
+	border: 10px solid yellow; 
+	align-content: space-between;
+    flex-flow: row wrap-reverse;/*flex-direction flex-wrap*/
+}
+
+.div1 {
+	background-color: #f800db;
+	margin: 5px;
+
+}
+
+
+.div2  {
+	background-color: #f800db;
+	margin: 5px;
+	width: 150%;
+	font-size: 30px;
+}
+
+.div3  {  
+	background-color: #f800db;
+	margin: 5px;
+	height: 150px;
+  }
+
+.div4 {
+	background-color: #f800db;
+	margin: 5px;
+	width: 150px;
+	height: 150px;
+}
+
+.div5 {
+	background-color: #f800db;
+	margin: 5px;
+	width: 200px;
+}
+.div6 {
+	background-color: #f800db;
+	margin: 5px;
+	width: 150px;
+	height: 150px;
+
+}
